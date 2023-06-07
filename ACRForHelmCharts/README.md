@@ -1,5 +1,6 @@
-﻿[offical doc](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-helm-repos)
+﻿[Using ACR as Helm Registry](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-helm-repos)
 
+[ACR Authentication](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-authentication?tabs=azure-cli#authentication-options)
 ## Azure CLI
 ```bash
 docker run -it --rm --name azure-cli -v ${pwd}\ACRForHelmCharts:/work -w /work --entrypoint /bin/sh mcr.microsoft.com/azure-cli:latest
